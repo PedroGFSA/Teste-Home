@@ -1,0 +1,58 @@
+.statusBar {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.horario {
+  position: absolute;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.icones {
+  display: flex;
+  gap: 6px;
+  justify-content: end;
+}
+
+img[alt="left arrow"] {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img[alt="img"] {
+  margin-left: 1.7rem;
+  margin-right: 1.5rem;
+}
+
+.dots {
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 4px;
+  justify-content: center;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+}

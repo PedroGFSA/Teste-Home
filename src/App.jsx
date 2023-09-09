@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './Header.jsx'
 
 const App = () => {
    React.useEffect(() => {}) 
 
   return (
-    <div>App</div>
+    <div>
+    <Header/>
+    </div>
   )
 }
 

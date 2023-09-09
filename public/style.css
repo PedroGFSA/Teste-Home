@@ -1,3 +1,7 @@
+@import "./header.css";
+
 * {
   background-color: #06436B;
+  font-family: Archivo, sans-serif;
+  box-sizing: border-box;
 }
