@@ -6,13 +6,11 @@ import { ContextStorage } from "./Context.jsx";
 
 const App = () => {
   return (
-    <div>
-      <ContextStorage>
-        <Header />
-        <BoasVindas />
-        <Footer /> 
-      </ContextStorage>
-    </div>
+    <ContextStorage>
+      <Header />
+      <BoasVindas />
+      <Footer />
+    </ContextStorage>
   );
 };
 

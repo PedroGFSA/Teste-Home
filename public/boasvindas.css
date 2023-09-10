@@ -13,11 +13,13 @@ section {
   font-weight: 400;
   margin-bottom: 1.5rem;
 }
+
 .boasvindas p {
   font-size: 12px;
   margin-bottom: 0.5rem;
 }
-.boasvindas > p:nth-child(3) {
+
+#valor {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 1.5rem;
@@ -46,7 +48,7 @@ section {
   padding: 0;
   justify-content: space-between;
   align-self: center;
-  gap: 2.5rem;
+  gap: 2rem;
   margin-right: 1.5rem;
   margin-bottom: 40px;
 }
@@ -60,7 +62,7 @@ section {
   padding: 32px 16px;
   border-radius: 8px;
   text-align: center;
-  max-width: 97px;
+  width: 97px;
   align-content: end;
 }
 
@@ -77,4 +79,32 @@ section {
 .opcoes > li:nth-child(3) {
   background: url("src/assets/carteirinha.png") no-repeat scroll center 8px;
   background-color: #CCDCEA;
+}
+
+
+.semFatura {
+  background-color: #CCDCEA;
+  color: #06436B;
+  border-radius: 8px;
+  padding: 8px 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 83vw;
+  font-size: 12px;
+  
+}
+
+.faturas {
+  background-color: #CCDCEA;
+  color: #06436B;
+  border-radius: 8px;
+  padding: 8px 1.5rem;
+  width: 83vw;
+  
+}
+
+.semFatura span, .faturas span {
+  background-color: #CCDCEA;
+  font-weight: 700;
+  
 }
