@@ -1,7 +1,10 @@
 @import "./header.css";
+@import "./boasvindas.css";
 
 * {
+  margin: 0;
   background-color: #06436B;
   font-family: Archivo, sans-serif;
   box-sizing: border-box;
+  
 }

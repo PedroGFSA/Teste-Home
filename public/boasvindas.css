@@ -1,0 +1,76 @@
+section {
+  color: white;
+  margin-left: 1.5rem;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.boasvindas {
+  
+}
+.boasvindas h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.boasvindas p {
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+.boasvindas > p:nth-child(3) {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.boasvindas button {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  color: #06436B;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+.opcoes {
+  display: flex;
+  margin-top: 56px;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+  align-self: center;
+  gap: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.opcoes li {
+  display: flex;
+  color: #06436B;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #CCDCEA;
+  padding: 32px 16px;
+  border-radius: 8px;
+  /* text-align: center; */
+  max-width: 97px;
+  align-content: end;
+}
+
+.opcoes > li:nth-child(1) {
+  background: url("src/assets/consulta.png") no-repeat scroll center 8px;
+  background-color: #CCDCEA;
+}
+
+.opcoes > li:nth-child(2) {
+  background: url("src/assets/fatura.png") no-repeat scroll center 8px;
+  background-color: #CCDCEA;
+}
+
+.opcoes > li:nth-child(3) {
+  background: url("src/assets/carteirinha.png") no-repeat scroll center 8px;
+  background-color: #CCDCEA;
+}
