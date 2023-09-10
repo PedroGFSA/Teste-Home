@@ -8,9 +8,6 @@ section {
   
 }
 
-.boasvindas {
-  
-}
 .boasvindas h3 {
   font-size: 16px;
   font-weight: 400;
@@ -36,6 +33,12 @@ section {
   border: none;
 }
 
+.boasvindas button:hover {
+  cursor: pointer;
+  background-color: rgb(218, 215, 215);
+  transition: 0.3s;
+}
+
 .opcoes {
   display: flex;
   margin-top: 56px;
@@ -45,6 +48,7 @@ section {
   align-self: center;
   gap: 2.5rem;
   margin-right: 1.5rem;
+  margin-bottom: 40px;
 }
 
 .opcoes li {
@@ -55,7 +59,7 @@ section {
   background-color: #CCDCEA;
   padding: 32px 16px;
   border-radius: 8px;
-  /* text-align: center; */
+  text-align: center;
   max-width: 97px;
   align-content: end;
 }

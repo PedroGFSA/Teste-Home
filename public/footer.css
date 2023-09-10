@@ -1,0 +1,56 @@
+footer {
+  height: 100vh;
+  background-color: white ;
+}
+
+footer h2 {
+  color: #06436B;
+  background-color: white;
+  padding-top: 32px;
+  margin-left: 1.5rem;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.maisOpcoes {
+  margin-top: 2rem;
+  padding: 0;
+  display: flex;
+  background-color: white;
+  list-style-type: none;
+  gap: 1.5rem;
+  justify-content: center;
+  align-content: end;
+}
+
+.maisOpcoes > li {
+  border-radius: 8px;
+  padding: 32px 16px;
+  max-width: 97px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.maisOpcoes:after {
+  content : "";
+  bottom: -2.5rem;
+  position: absolute;
+  border-radius: 8px;
+  width   : 30%;  
+  border-bottom:4px solid #111;
+}
+
+.maisOpcoes > li:nth-child(1) {
+  background:url("src/assets/noticia.svg") no-repeat scroll center 8px;
+  background-color: #06436B;
+}
+.maisOpcoes > li:nth-child(2) {
+  background:url("src/assets/contatos.svg") no-repeat scroll center 8px;
+  background-color: #06436B;
+}
+.maisOpcoes > li:nth-child(3) {
+  background:url("src/assets/plano.svg") no-repeat scroll center 8px;
+  background-color: #06436B;
+}
