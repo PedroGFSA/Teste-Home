@@ -14,8 +14,8 @@ const Header = () => {
 
       <img src="src\assets\Icon.svg" alt="left arrow" />
 
-      <div className="logo">
-        <img src="src\assets\Marca.png" alt="marca" />
+      <div className="config">
+        
         <img src="src\assets\config-icon.svg" alt="config" />
       </div>
       

@@ -6,7 +6,7 @@ const BoasVindas = () => {
   const context = React.useContext(Context);
   
   const faturas = [];
-  faturas.push(122)
+  // faturas.push(122)
   faturas.push(122)
 
   function handleFaturas() {

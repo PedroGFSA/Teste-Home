@@ -1,6 +1,7 @@
 footer {
   height: 100vh;
   background-color: white ;
+  position: relative;
 }
 
 footer h2 {
@@ -52,7 +53,7 @@ footer h2 {
 @media (max-width: 450px) {
   .maisOpcoes:after {
     content : "";
-    bottom: -2.5rem;
+    top: 13.5rem;
     position: absolute;
     
     border-radius: 8px;
